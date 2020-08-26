@@ -13,7 +13,7 @@ var TestConfig = {
  "Testsets": [
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30001_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
     "B": "eval/vqvae_2stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
@@ -22,7 +22,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30001_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
     "B": "eval/vqvae_2stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
@@ -31,7 +31,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30001_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
     "B": "eval/vqvae_2stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
@@ -40,7 +40,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30001_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
     "B": "eval/vqvae_2stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
@@ -49,7 +49,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30001_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
     "B": "eval/vqvae_2stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
@@ -58,7 +58,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30001_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
     "B": "eval/vqvae_2stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
@@ -67,7 +67,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30001_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
     "B": "eval/vqvae_2stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
@@ -76,7 +76,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30001_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
     "B": "eval/vqvae_2stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
@@ -85,7 +85,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30002_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
     "B": "eval/vqvae_2stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
@@ -94,7 +94,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30002_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
     "B": "eval/vqvae_2stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
@@ -103,7 +103,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30002_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
     "B": "eval/vqvae_2stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
@@ -112,7 +112,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30002_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
     "B": "eval/vqvae_2stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
@@ -121,7 +121,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30002_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
     "B": "eval/vqvae_2stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
@@ -130,7 +130,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30002_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
     "B": "eval/vqvae_2stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
@@ -139,7 +139,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30002_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
     "B": "eval/vqvae_2stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
@@ -148,7 +148,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
+   "TestID": "AB_E30002_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
     "B": "eval/vqvae_2stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
@@ -157,7 +157,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30001_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
     "B": "eval/vqvae_3stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
@@ -166,7 +166,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30001_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
     "B": "eval/vqvae_3stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
@@ -175,7 +175,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30001_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
     "B": "eval/vqvae_3stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
@@ -184,7 +184,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30001_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
     "B": "eval/vqvae_3stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
@@ -193,7 +193,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30001_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
     "B": "eval/vqvae_3stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
@@ -202,7 +202,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30001_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
     "B": "eval/vqvae_3stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
@@ -211,7 +211,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30001_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
     "B": "eval/vqvae_3stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
@@ -220,7 +220,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30001_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
     "B": "eval/vqvae_3stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
@@ -229,7 +229,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30002_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
     "B": "eval/vqvae_3stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
@@ -238,7 +238,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30002_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
     "B": "eval/vqvae_3stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
@@ -247,7 +247,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30002_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
     "B": "eval/vqvae_3stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
@@ -256,7 +256,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30002_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
     "B": "eval/vqvae_3stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
@@ -265,7 +265,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30002_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
     "B": "eval/vqvae_3stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
@@ -274,7 +274,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30002_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
     "B": "eval/vqvae_3stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
@@ -283,7 +283,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30002_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
     "B": "eval/vqvae_3stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
@@ -292,7 +292,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "TestID": "AB_E30002_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
     "B": "eval/vqvae_3stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
@@ -301,7 +301,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30001_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
@@ -310,7 +310,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30001_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
@@ -319,7 +319,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30001_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
@@ -328,7 +328,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30001_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
@@ -337,7 +337,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30001_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
@@ -346,7 +346,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30001_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
@@ -355,7 +355,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30001_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
@@ -364,7 +364,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30001_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
@@ -373,7 +373,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30002_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
@@ -382,7 +382,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30002_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
@@ -391,7 +391,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30002_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
@@ -400,7 +400,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30002_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
@@ -409,7 +409,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30002_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
@@ -418,7 +418,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30002_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
@@ -427,7 +427,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30002_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
@@ -436,7 +436,7 @@ var TestConfig = {
   },
   {
    "Name": "AB Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "TestID": "AB_E30002_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
