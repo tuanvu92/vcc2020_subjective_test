@@ -1,262 +1,262 @@
 var TestConfig = {
- "TestName": "Listening Test",
+ "TestName": "Speaker Similarity Test",
  "LoopByDefault": false,
  "ShowFileIDs": false,
  "ShowResults": false,
  "EnableABLoop": true,
  "RandomizeTestOrder": true,
  "EnableOnlineSubmission": false,
- "MaxTestsPerRun": 24,
+ "MaxTestsPerRun": 16,
  "BeaqleServiceURL": "",
  "SupervisorContact": "",
  "AudioRoot": "",
  "Testsets": [
   {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEF1_TEF1_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
     "B": "eval/vqvae_2stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
-    "X": "eval/target/TEF1/E10066.wav"
+    "X": "eval/target/TEF1/E20050.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEF1_TEM1_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
     "B": "eval/vqvae_2stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
-    "X": "eval/target/TEM1/E10069.wav"
+    "X": "eval/target/TEM1/E20043.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEF1_TGF1_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
     "B": "eval/vqvae_2stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
-    "X": "eval/target/TGF1/G10027.wav"
+    "X": "eval/target/TGF1/G10034.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEF1_TGM1_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
     "B": "eval/vqvae_2stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
-    "X": "eval/target/TGM1/G10069.wav"
+    "X": "eval/target/TGM1/G10017.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEM1_TEF1_vqvae_1stage_vqvae_2stage",
    "Files": {
     "A": "eval/vqvae_1stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
     "B": "eval/vqvae_2stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
-    "X": "eval/target/TEF1/E20037.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
-   "Files": {
-    "A": "eval/vqvae_1stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
-    "B": "eval/vqvae_2stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
-    "X": "eval/target/TEM1/E10070.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
-   "Files": {
-    "A": "eval/vqvae_1stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
-    "B": "eval/vqvae_2stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
-    "X": "eval/target/TGF1/G10042.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_1stage_vqvae_2stage",
-   "Files": {
-    "A": "eval/vqvae_1stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
-    "B": "eval/vqvae_2stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
-    "X": "eval/target/TGM1/G10053.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
-   "Files": {
-    "A": "eval/vqvae_1stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
-    "B": "eval/vqvae_2stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
-    "X": "eval/target/TEF1/E10065.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
-   "Files": {
-    "A": "eval/vqvae_1stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
-    "B": "eval/vqvae_2stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
-    "X": "eval/target/TEM1/E10064.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
-   "Files": {
-    "A": "eval/vqvae_1stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
-    "B": "eval/vqvae_2stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
-    "X": "eval/target/TGF1/G10024.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
-   "Files": {
-    "A": "eval/vqvae_1stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
-    "B": "eval/vqvae_2stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
-    "X": "eval/target/TGM1/G10032.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
-   "Files": {
-    "A": "eval/vqvae_1stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
-    "B": "eval/vqvae_2stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
-    "X": "eval/target/TEF1/E20010.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
-   "Files": {
-    "A": "eval/vqvae_1stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
-    "B": "eval/vqvae_2stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
-    "X": "eval/target/TEM1/E10067.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
-   "Files": {
-    "A": "eval/vqvae_1stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
-    "B": "eval/vqvae_2stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
-    "X": "eval/target/TGF1/G10050.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_1stage_vqvae_2stage",
-   "Files": {
-    "A": "eval/vqvae_1stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
-    "B": "eval/vqvae_2stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
-    "X": "eval/target/TGM1/G10008.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
-   "Files": {
-    "A": "eval/vqvae_2stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
-    "B": "eval/vqvae_3stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
-    "X": "eval/target/TEF1/E20014.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
-   "Files": {
-    "A": "eval/vqvae_2stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
-    "B": "eval/vqvae_3stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
-    "X": "eval/target/TEM1/E20047.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
-   "Files": {
-    "A": "eval/vqvae_2stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
-    "B": "eval/vqvae_3stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
-    "X": "eval/target/TGF1/G10001.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
-   "Files": {
-    "A": "eval/vqvae_2stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
-    "B": "eval/vqvae_3stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
-    "X": "eval/target/TGM1/G10034.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
-   "Files": {
-    "A": "eval/vqvae_2stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
-    "B": "eval/vqvae_3stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
-    "X": "eval/target/TEF1/E10052.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
-   "Files": {
-    "A": "eval/vqvae_2stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
-    "B": "eval/vqvae_3stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
-    "X": "eval/target/TEM1/E10066.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
-   "Files": {
-    "A": "eval/vqvae_2stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
-    "B": "eval/vqvae_3stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
-    "X": "eval/target/TGF1/G10004.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_2stage_vqvae_3stage",
-   "Files": {
-    "A": "eval/vqvae_2stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
-    "B": "eval/vqvae_3stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
-    "X": "eval/target/TGM1/G10060.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
-   "Files": {
-    "A": "eval/vqvae_2stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
-    "B": "eval/vqvae_3stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
     "X": "eval/target/TEF1/E20002.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEM1_TEM1_vqvae_1stage_vqvae_2stage",
    "Files": {
-    "A": "eval/vqvae_2stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
-    "B": "eval/vqvae_3stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
-    "X": "eval/target/TEM1/E20006.wav"
+    "A": "eval/vqvae_1stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
+    "B": "eval/vqvae_2stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
+    "X": "eval/target/TEM1/E20043.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEM1_TGF1_vqvae_1stage_vqvae_2stage",
    "Files": {
-    "A": "eval/vqvae_2stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
-    "B": "eval/vqvae_3stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
+    "A": "eval/vqvae_1stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
+    "B": "eval/vqvae_2stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
+    "X": "eval/target/TGF1/G10064.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEM1_TGM1_vqvae_1stage_vqvae_2stage",
+   "Files": {
+    "A": "eval/vqvae_1stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
+    "B": "eval/vqvae_2stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
+    "X": "eval/target/TGM1/G10068.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEF1_TEF1_vqvae_1stage_vqvae_2stage",
+   "Files": {
+    "A": "eval/vqvae_1stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
+    "B": "eval/vqvae_2stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
+    "X": "eval/target/TEF1/E20028.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEF1_TEM1_vqvae_1stage_vqvae_2stage",
+   "Files": {
+    "A": "eval/vqvae_1stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
+    "B": "eval/vqvae_2stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
+    "X": "eval/target/TEM1/E10066.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEF1_TGF1_vqvae_1stage_vqvae_2stage",
+   "Files": {
+    "A": "eval/vqvae_1stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
+    "B": "eval/vqvae_2stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
     "X": "eval/target/TGF1/G10010.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEF1_TGM1_vqvae_1stage_vqvae_2stage",
+   "Files": {
+    "A": "eval/vqvae_1stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
+    "B": "eval/vqvae_2stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
+    "X": "eval/target/TGM1/G10070.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEM1_TEF1_vqvae_1stage_vqvae_2stage",
+   "Files": {
+    "A": "eval/vqvae_1stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
+    "B": "eval/vqvae_2stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
+    "X": "eval/target/TEF1/E20014.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEM1_TEM1_vqvae_1stage_vqvae_2stage",
+   "Files": {
+    "A": "eval/vqvae_1stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
+    "B": "eval/vqvae_2stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
+    "X": "eval/target/TEM1/E20017.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEM1_TGF1_vqvae_1stage_vqvae_2stage",
+   "Files": {
+    "A": "eval/vqvae_1stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
+    "B": "eval/vqvae_2stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
+    "X": "eval/target/TGF1/G10011.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEM1_TGM1_vqvae_1stage_vqvae_2stage",
+   "Files": {
+    "A": "eval/vqvae_1stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
+    "B": "eval/vqvae_2stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
+    "X": "eval/target/TGM1/G10013.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEF1_TEF1_vqvae_2stage_vqvae_3stage",
+   "Files": {
+    "A": "eval/vqvae_2stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
+    "B": "eval/vqvae_3stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
+    "X": "eval/target/TEF1/E10060.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEF1_TEM1_vqvae_2stage_vqvae_3stage",
+   "Files": {
+    "A": "eval/vqvae_2stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
+    "B": "eval/vqvae_3stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
+    "X": "eval/target/TEM1/E20045.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEF1_TGF1_vqvae_2stage_vqvae_3stage",
+   "Files": {
+    "A": "eval/vqvae_2stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
+    "B": "eval/vqvae_3stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
+    "X": "eval/target/TGF1/G10014.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEF1_TGM1_vqvae_2stage_vqvae_3stage",
+   "Files": {
+    "A": "eval/vqvae_2stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
+    "B": "eval/vqvae_3stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
+    "X": "eval/target/TGM1/G10043.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEM1_TEF1_vqvae_2stage_vqvae_3stage",
+   "Files": {
+    "A": "eval/vqvae_2stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
+    "B": "eval/vqvae_3stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
+    "X": "eval/target/TEF1/E20011.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEM1_TEM1_vqvae_2stage_vqvae_3stage",
+   "Files": {
+    "A": "eval/vqvae_2stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
+    "B": "eval/vqvae_3stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
+    "X": "eval/target/TEM1/E20007.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEM1_TGF1_vqvae_2stage_vqvae_3stage",
+   "Files": {
+    "A": "eval/vqvae_2stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
+    "B": "eval/vqvae_3stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
+    "X": "eval/target/TGF1/G10019.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEM1_TGM1_vqvae_2stage_vqvae_3stage",
+   "Files": {
+    "A": "eval/vqvae_2stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
+    "B": "eval/vqvae_3stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
+    "X": "eval/target/TGM1/G10031.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEF1_TEF1_vqvae_2stage_vqvae_3stage",
+   "Files": {
+    "A": "eval/vqvae_2stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
+    "B": "eval/vqvae_3stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
+    "X": "eval/target/TEF1/E10055.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEF1_TEM1_vqvae_2stage_vqvae_3stage",
+   "Files": {
+    "A": "eval/vqvae_2stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
+    "B": "eval/vqvae_3stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
+    "X": "eval/target/TEM1/E10066.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEF1_TGF1_vqvae_2stage_vqvae_3stage",
+   "Files": {
+    "A": "eval/vqvae_2stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
+    "B": "eval/vqvae_3stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
+    "X": "eval/target/TGF1/G10028.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEF1_TGM1_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
     "B": "eval/vqvae_3stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
@@ -264,183 +264,183 @@ var TestConfig = {
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEM1_TEF1_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
     "B": "eval/vqvae_3stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
-    "X": "eval/target/TEF1/E20027.wav"
+    "X": "eval/target/TEF1/E10059.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEM1_TEM1_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
     "B": "eval/vqvae_3stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
-    "X": "eval/target/TEM1/E20044.wav"
+    "X": "eval/target/TEM1/E20025.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEM1_TGF1_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
     "B": "eval/vqvae_3stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
-    "X": "eval/target/TGF1/G10002.wav"
+    "X": "eval/target/TGF1/G10063.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_2stage_vqvae_3stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEM1_TGM1_vqvae_2stage_vqvae_3stage",
    "Files": {
     "A": "eval/vqvae_2stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
     "B": "eval/vqvae_3stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
-    "X": "eval/target/TGM1/G10033.wav"
+    "X": "eval/target/TGM1/G10051.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEF1_TEF1_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30001.wav",
-    "X": "eval/target/TEF1/E20033.wav"
+    "X": "eval/target/TEF1/E10061.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEF1_TEM1_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30001.wav",
-    "X": "eval/target/TEM1/E20015.wav"
+    "X": "eval/target/TEM1/E10057.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEF1_TGF1_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30001.wav",
-    "X": "eval/target/TGF1/G10023.wav"
+    "X": "eval/target/TGF1/G10010.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEF1_TGM1_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30001.wav",
-    "X": "eval/target/TGM1/G10052.wav"
+    "X": "eval/target/TGM1/G10044.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEM1_TEF1_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30001.wav",
-    "X": "eval/target/TEF1/E10070.wav"
+    "X": "eval/target/TEF1/E20007.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEM1_TEM1_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30001.wav",
-    "X": "eval/target/TEM1/E20048.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
-   "Files": {
-    "A": "eval/vqvae_3stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
-    "B": "eval/vqvae_1stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
-    "X": "eval/target/TGF1/G10001.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30001_vqvae_3stage_vqvae_1stage",
-   "Files": {
-    "A": "eval/vqvae_3stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
-    "B": "eval/vqvae_1stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
-    "X": "eval/target/TGM1/G10057.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
-   "Files": {
-    "A": "eval/vqvae_3stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
-    "B": "eval/vqvae_1stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
-    "X": "eval/target/TEF1/E10065.wav"
-   }
-  },
-  {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
-   "Files": {
-    "A": "eval/vqvae_3stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
-    "B": "eval/vqvae_1stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
     "X": "eval/target/TEM1/E20026.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEM1_TGF1_vqvae_3stage_vqvae_1stage",
+   "Files": {
+    "A": "eval/vqvae_3stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
+    "B": "eval/vqvae_1stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30001.wav",
+    "X": "eval/target/TGF1/G10047.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30001_SEM1_TGM1_vqvae_3stage_vqvae_1stage",
+   "Files": {
+    "A": "eval/vqvae_3stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
+    "B": "eval/vqvae_1stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30001.wav",
+    "X": "eval/target/TGM1/G10026.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEF1_TEF1_vqvae_3stage_vqvae_1stage",
+   "Files": {
+    "A": "eval/vqvae_3stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
+    "B": "eval/vqvae_1stage/SEF1/SEF1_TEF1/SEF1_TEF1_E30002.wav",
+    "X": "eval/target/TEF1/E10056.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEF1_TEM1_vqvae_3stage_vqvae_1stage",
+   "Files": {
+    "A": "eval/vqvae_3stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
+    "B": "eval/vqvae_1stage/SEF1/SEF1_TEM1/SEF1_TEM1_E30002.wav",
+    "X": "eval/target/TEM1/E10051.wav"
+   }
+  },
+  {
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEF1_TGF1_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TGF1/SEF1_TGF1_E30002.wav",
-    "X": "eval/target/TGF1/G10020.wav"
+    "X": "eval/target/TGF1/G10012.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEF1_TGM1_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
     "B": "eval/vqvae_1stage/SEF1/SEF1_TGM1/SEF1_TGM1_E30002.wav",
-    "X": "eval/target/TGM1/G10011.wav"
+    "X": "eval/target/TGM1/G10003.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEM1_TEF1_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TEF1/SEM1_TEF1_E30002.wav",
-    "X": "eval/target/TEF1/E20021.wav"
+    "X": "eval/target/TEF1/E20020.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEM1_TEM1_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TEM1/SEM1_TEM1_E30002.wav",
-    "X": "eval/target/TEM1/E20010.wav"
+    "X": "eval/target/TEM1/E10061.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEM1_TGF1_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TGF1/SEM1_TGF1_E30002.wav",
-    "X": "eval/target/TGF1/G10046.wav"
+    "X": "eval/target/TGF1/G10053.wav"
    }
   },
   {
-   "Name": "ABX Test",
-   "TestID": "E30002_vqvae_3stage_vqvae_1stage",
+   "Name": "SimilarityTest",
+   "TestID": "E30002_SEM1_TGM1_vqvae_3stage_vqvae_1stage",
    "Files": {
     "A": "eval/vqvae_3stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
     "B": "eval/vqvae_1stage/SEM1/SEM1_TGM1/SEM1_TGM1_E30002.wav",
-    "X": "eval/target/TGM1/G10002.wav"
+    "X": "eval/target/TGM1/G10021.wav"
    }
   }
  ]
