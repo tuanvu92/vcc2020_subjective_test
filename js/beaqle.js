@@ -1617,7 +1617,7 @@ AbTest.prototype.createTestDOM = function (TestIdx) {
         cell[3].innerHTML = "<button class='stopButton'>Stop</button>";
 
         row[2]  = tab.insertRow(-1);
-        row[2].innerHTML = "Which voice is closest to X? Chose Fair if both voices are the same."
+        row[2].innerHTML = "Which voice is more natural? Chose Fair if there is no differece."
 
         cell[1] = row[2].insertCell(-1);
         cell[1].innerHTML = "A"
