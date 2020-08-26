@@ -1,0 +1,53 @@
+// configure the test here
+var TestConfig = {
+  "TestName": "Naturalness Test",
+  "RateScalePng": "img/scale_nat.png",
+  "RateScaleBgPng": "img/scale_nat_background.png",
+  "RateMinValue": 1,
+  "RateMaxValue": 9,
+  "RateDefaultValue":0,
+  "ShowFileIDs": false,
+  "ShowResults": false,
+  "LoopByDefault": true,
+  "EnableABLoop": true,
+  "EnableOnlineSubmission": false,
+  "BeaqleServiceURL": "",
+  "SupervisorContact": "",
+  "RandomizeTestOrder": true,
+  "MaxTestsPerRun": 10,
+  "RequireMaxRating": false,
+  "AudioRoot": "",
+  "Testsets": [
+    {
+      "Name": "Naturalness Test",
+      "TestID": "0",
+      "Files": {
+        "0": "eval/gan/SJF1_TEF1/SJF1_TEF1_F210SF_C41.AD.wav",
+        "1": "eval/vae/SJF1_TEF1/SJF1_TEF1_F210SF_C41.AD.wav",
+        "2": "eval/natural/EF1/p230_390.wav",
+        "3": "eval/gan/SEF1_TJM1/SEF1_TJM1_p230_417.wav",
+        "4": "eval/vae/SEF1_TJM1/SEF1_TJM1_p230_417.wav",
+        "5": "eval/natural/JM1/M211SF_C48.AD.wav",
+        "6": "eval/gan/SEM1_TJM1/SEM1_TJM1_p226_340.wav",
+        "7": "eval/vae/SEM1_TJM1/SEM1_TJM1_p226_340.wav",
+        "8": "eval/natural/JM1/M211SF_C48.AD.wav",
+        "9": "eval/gan/SEM1_TJF1/SEM1_TJF1_p226_368.wav",
+        "10": "eval/vae/SEM1_TJF1/SEM1_TJF1_p226_368.wav",
+        "11": "eval/natural/JF1/F210SF_C42.AD.wav",
+        "12": "eval/gan/SEF1_TJF1/SEF1_TJF1_p230_417.wav",
+        "13": "eval/vae/SEF1_TJF1/SEF1_TJF1_p230_417.wav",
+        "14": "eval/natural/JF1/F210SF_C42.AD.wav",
+        "15": "eval/gan/SJM1_TEF1/SJM1_TEF1_M211SF_C50.AD.wav",
+        "16": "eval/vae/SJM1_TEF1/SJM1_TEF1_M211SF_C50.AD.wav",
+        "17": "eval/natural/EF1/p230_390.wav",
+        "18": "eval/gan/SJM1_TEM1/SJM1_TEM1_M211SF_C50.AD.wav",
+        "19": "eval/vae/SJM1_TEM1/SJM1_TEM1_M211SF_C50.AD.wav",
+        "20": "eval/natural/EM1/p226_355.wav",
+        "21": "eval/gan/SJF1_TEM1/SJF1_TEM1_F210SF_C50.AD.wav",
+        "22": "eval/vae/SJF1_TEM1/SJF1_TEM1_F210SF_C50.AD.wav",
+        "23": "eval/natural/EM1/p226_355.wav",
+      }
+    },
+    
+  ]
+}
